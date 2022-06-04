@@ -9,6 +9,7 @@ import Login from './Pages/Login';
 import Register from './Pages/Register';
 import Verify from './Pages/Verify';
 import Home from './Pages/Home';
+import Chats from './Pages/Chats';
 
 const Stack = createNativeStackNavigator();
 
@@ -42,6 +43,11 @@ const MyStack = () => {
           name="Home"
           component={Home}
           options={{ title: 'Home', headerShown: false }}
+        />
+        <Stack.Screen
+          name="Chats"
+          component={Chats}
+          options={{ title: 'Chats', headerShown: true }}
         />
       </Stack.Navigator>
     </NavigationContainer>

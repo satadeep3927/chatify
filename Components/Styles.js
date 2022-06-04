@@ -1,4 +1,5 @@
 let primaryColor = 'rgb(220, 20, 83)';
+let backGroundLight = '#252a34'
 
 export default class Styles{
     static primaryColor = primaryColor
@@ -147,6 +148,57 @@ export default class Styles{
         marginLeft: 'auto',
         marginRight: 6
     }
+
+    static chatPreview = {
+        height: 100,
+        width: '100%',
+        borderRadius: 20,
+        backgroundColor: backGroundLight,
+        padding: 12,
+        alignItems: 'center',
+        flexDirection: 'row',
+        marginTop: 14
+    }
+
+    static avatarChatPreview = {
+        height: 70,
+        width : 70,
+        borderRadius: 35
+    }
+    static chatPreviewTextBox = {
+        width: '50%',
+        padding: 12
+    }
+    static chatPreviewName = {
+        fontSize: 15,
+        color: 'white',
+        fontWeight: 'bold'
+    }
+    static chatPreviewMessage = {
+        fontSize: 13,
+        color: 'rgba(255, 255, 255, 0.4)'
+    }
+    static chatPreviewTimeStamp = {
+        color: 'rgba(255, 255, 255, 0.4)',
+        marginLeft: 'auto',
+        fontSize: 12
+    }
+    static titleBar = {
+        flexDirection: 'row',
+        alignItems: 'center'
+    }
+    static titleBarText = {
+        fontSize: 17,
+        fontWeight: 'bold',
+        color: '#FFFFFF'
+    }
+    static chatContainer = {
+        height: '100%',
+        width: '100%',
+        backgroundColor: '#181920',
+        padding: 12
+    }
     static rippleColor = 'rgba(0,0,0,0.1)'
     static placeHolderColor = 'rgba(255, 255, 255, 0.4)'
+    static primaryColorHover = 'rgb(225, 25, 88)'
 }
