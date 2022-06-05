@@ -2,7 +2,7 @@
 import { Text, Image, View } from "react-native"
 import Styles from "./Styles"
 
-export default CustomTitle = () =>{
+const CustomTitle = () =>{
     return(
         <View style={Styles.titleBar}>
             <Image source={require('../assets/images/profile.jpg')} style={Styles.avatarMini} />
@@ -10,3 +10,4 @@ export default CustomTitle = () =>{
         </View>
     )
 }
+export default CustomTitle;

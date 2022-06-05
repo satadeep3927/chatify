@@ -4,7 +4,7 @@ import { Text, View, Pressable, TextInput, Image} from 'react-native';
 import Styles from '../Components/Styles';
 import * as ImagePicker from "expo-image-picker"
 
-export default Register = ({ navigation }) => {
+ const Register = ({ navigation }) => {
     
     const [image, setImage] = useState(null);
 
@@ -52,3 +52,4 @@ export default Register = ({ navigation }) => {
         </>
     );
 }
+export default Register;

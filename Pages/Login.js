@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View, Pressable, TextInput } from 'react-native';
 import Styles from '../Components/Styles';
 
-export default Login = ({ navigation }) => {
+const Login = ({ navigation }) => {
 
     return (
         <>
@@ -30,3 +30,5 @@ export default Login = ({ navigation }) => {
         </>
     );
 }
+
+export default Login;

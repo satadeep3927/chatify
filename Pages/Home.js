@@ -3,7 +3,7 @@ import { Text, View, Pressable, TextInput, Image } from 'react-native';
 import Styles from '../Components/Styles';
 import ChatPreview from '../Components/ChatPreview';
 
-export default Home = ({ navigation }) => {
+const Home = ({ navigation }) => {
 
     return (
         <>
@@ -24,3 +24,4 @@ export default Home = ({ navigation }) => {
         </>
     );
 }
+export default Home;

@@ -1,7 +1,7 @@
 import Styles from "./Styles";
 import { Text, View, Image, Pressable } from 'react-native';
 
-export default ChatPreview = ({navigation}) => {
+const ChatPreview = ({navigation}) => {
     return (
         <Pressable style={Styles.chatPreview} 
             android_ripple={{color: Styles.rippleColor}}
@@ -20,3 +20,4 @@ export default ChatPreview = ({navigation}) => {
         </Pressable>
     )
 }
+export default ChatPreview;

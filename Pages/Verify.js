@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { Text, View, Pressable, TextInput } from 'react-native';
 import Styles from '../Components/Styles';
 
-export default Verify = ({ navigation }) => {
+const Verify = ({ navigation }) => {
     const secondDigit = useRef()
     const thirdDigit = useRef()
     const fourthDigit = useRef()
@@ -42,3 +42,4 @@ export default Verify = ({ navigation }) => {
         </>
     );
 }
+export default Verify;

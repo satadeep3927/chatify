@@ -198,7 +198,79 @@ export default class Styles{
         backgroundColor: '#181920',
         padding: 12
     }
+    static chatInputBox = {
+        width: '100%',
+        marginTop: 'auto',
+        paddingVertical: 12,
+        height: 70,
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    }
+    static chatInput = {
+        width: '85%',
+        height: 50,
+        backgroundColor: backGroundLight,
+        borderRadius: 25,
+        padding: 12,
+        color: 'white',
+        flexShrink: 1
+    }
+    static sendButton = {
+        height: 50,
+        width: 50,
+        backgroundColor: primaryColor,
+        borderRadius: 25,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginLeft: 12
+    }
+    static sendIcon = {
+        color: "white",
+        fontFamily: "Font awesome 6 pro",
+        fontSize: 17,
+    }
+    static chatListContainer = {
+        flexGrow: 1,
+        width: '100%',
+        flexDirection: 'column'
+    }
+    static chatWrapper = {
+        width: '100%',
+        flexDirection: 'column',
+        alignItems: 'center',
+        marginVertical: 20
+    }
+    static chatTimeStamp = {
+        color: 'rgba(255, 255, 255, 0.4)',
+        fontSize: 13,
+        marginBottom: 15
+    }
+    static myMessage = {
+        maxWidth: '50%',
+        padding: 12,
+        borderRadius : 14,
+        borderTopRightRadius: 0,
+        backgroundColor: primaryColor,
+        marginLeft: 'auto'
+    }
+    static myMessageText = {
+        color: '#ffffff',
+        fontSize: 13
+    }
+    static otherMessage = {
+        maxWidth: '50%',
+        padding: 12,
+        borderRadius : 14,
+        borderTopLeftRadius: 0,
+        backgroundColor: backGroundLight,
+        marginRight: 'auto'
+    }
+
+    static otherMessageText = {
+        color: '#ffffff',
+        fontSize: 13
+    }
     static rippleColor = 'rgba(0,0,0,0.1)'
     static placeHolderColor = 'rgba(255, 255, 255, 0.4)'
     static primaryColorHover = 'rgb(225, 25, 88)'
-}
+}  
